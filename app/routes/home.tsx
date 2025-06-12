@@ -45,38 +45,43 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 機能紹介 */}
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl mb-4">🚀</div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-              高速ルーティング
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              React Router v7の新しいAPIによる高速なページ遷移
-            </p>
-          </div>
+        {/* 機能紹介セクション */}
+        <section>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
+            主な機能
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="text-3xl mb-4">🚀</div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                高速ルーティング
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                React Router v7の新しいAPIによる高速なページ遷移
+              </p>
+            </div>
 
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl mb-4">💎</div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-              型安全
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              TypeScriptによる型安全な開発環境
-            </p>
-          </div>
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="text-3xl mb-4">💎</div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                型安全
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                TypeScriptによる型安全な開発環境
+              </p>
+            </div>
 
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl mb-4">🎨</div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-              モダンデザイン
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              Tailwind CSS v4によるレスポンシブデザイン
-            </p>
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+              <div className="text-3xl mb-4">🎨</div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                モダンデザイン
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                Tailwind CSS v4によるレスポンシブデザイン
+              </p>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
